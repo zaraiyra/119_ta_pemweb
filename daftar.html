@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="css/masuk.css">
+    <style>
+        .sign-in {
+            margin-top: 15px;
+            padding: 10px 0 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+    <h1>Sign Up</h1>
+        <form action="homepage.html" method="post">
+            <div class="fsign-in">
+                <div class="field">
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                    <span id="emailError" class="error"></span>
+                </div>
+                <div class="field">
+                    <input type="text" name="username" placeholder="Username" required>
+                </div>
+                <div class="field">
+                    <input type="password" id="password" name="password" placeholder="Password" oninput="validatePassword()" required>
+                </div>
+                <div class="field">
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Enter your password again" required>
+                    <span id="passwordError" class="error"></span>
+                </div>
+            </div>
+            <h3 class="sign-in">or Sign up Using</h3>
+            <div class="altsign">
+                <div class="logo-alt">
+                    <a href="#"><img src="img/icon_apple.png" alt="Apple Icon"></a>
+                </div>
+                <div class="logo-alt">
+                    <a href="#"><img src="img/icon_google.png" alt="Google Icon"></a>
+                </div>
+            </div>
+            <div class="button">
+                <button type="submit" onclick="return validateForm()">Sign in</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/daftar.js"></script>
+</body>
+</html>
