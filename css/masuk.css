@@ -32,6 +32,16 @@ h1, h3{
     margin: 5px 0;
 }
 
+.field-fullname {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.field-name {
+    width: 49%;
+}
+
 input {
     width: 100%;
     background: #D9D9D9;
@@ -50,8 +60,8 @@ input {
 }
 
 .sign-in {
-    margin: 0;
-    padding-bottom: 15px;
+    margin-top: 15px;
+    padding-bottom: 10px 0 25px 0;
     font-weight: 400;
 }
 
