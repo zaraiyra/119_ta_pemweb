@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mukta:wght@300;400;500;700&display=swap');
+* {
+    box-sizing: border-box;
+    color: #fff;
+    background: #1F4E45;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 336px;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+.fsign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.field {
+    border: 0;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.field-fullname {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.field-name {
+    width: 49%;
+}
+
+input {
+    width: 100%;
+    background: #D9D9D9;
+    height: 48px;
+    padding: 16px 12px;
+}
+
+.forgot, #passwordError {
+    padding-left: 5px;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+#passwordError {
+    color: #F45959;
+}
+
+.sign-in {
+    margin-top: 15px;
+    padding-bottom: 10px 0 25px 0;
+    font-weight: 400;
+}
+
+.altsign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.logo-alt {
+    margin: 5px;
+    size: 48px;
+}
+
+img {
+    height: 36px;
+    margin: 15px;
+}
+
+button {
+    width: 300px;
+    height: 48px;
+    margin: 18px;
+    background-color: #F45959;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid;
+    border-color: #EBE6E7;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

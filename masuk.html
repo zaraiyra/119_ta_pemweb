@@ -12,21 +12,22 @@
         <form action="homepage.html" method="post">
             <div class="fsign-in">
                 <div class="field">
-                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="text" name="email" placeholder="Email" required>
+                    <span id="emailError" class="error"></span>
                 </div>
                 <div class="field">
                     <input type="password" name="password" placeholder="Password" required>
+
                 </div>
                 <a href="#" class="forgot">forgot your password?</a>
             </div>
-            <h3 class="sign-in">or</h3>
-            <h3 class="sign-in">Sign in Using</h3>
+            <h3 class="sign-in">or Sign in Using</h3>
             <div class="altsign">
                 <div class="logo-alt">
-                    <a href="#"><img src="img/icon_apple.png" alt="Apple Icon"></a>
+                    <a href="#"><img src="img/icon_apple.svg" alt="Apple Icon"></a>
                 </div>
                 <div class="logo-alt">
-                    <a href="#"><img src="img/icon_google.png" alt="Google Icon"></a>
+                    <a href="#"><img src="img/icon_google.svg" alt="Google Icon"></a>
                 </div>
             </div>
             <div class="button">
@@ -34,5 +35,6 @@
             </div>
         </form>
     </div>
+    <script src="js/daftar.js"></script>
 </body>
 </html>
