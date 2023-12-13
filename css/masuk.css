@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Mukta:wght@300;400;500;700&display=swap');
 * {
     box-sizing: border-box;
-    color: #fff;
+    color: rgb(246, 236, 224);
     background: #1F4E45;
     border-radius: 15px;
     border: none;
