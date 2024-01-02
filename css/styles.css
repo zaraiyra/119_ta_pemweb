@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mukta:wght@300;400;500;700&display=swap');
+
+:root {
+    --green: #1F4E45;
+    --brown: #B06A4D;
+    --lt-brown: #CFB79F;
+    --lt-background: #FFF9F3;
+    --red: #F45959;
+    --blue: #59D8F4;
+    --navbar: #FFF9F3;
+    --gray: #717171;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 10px;
+    padding: 5px;
+}
