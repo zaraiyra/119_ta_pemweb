@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Event</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img\logo.png" alt="EVENTUNJ" width="100px">
+            </a>
+        </div>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><img src="img/icon_heart.svg" width="24px">
+                <span class="position-absolute translate-middle badge rounded-pill bg-danger">
+                    3
+                <span class="visually-hidden">unread messages</span>
+                </a>
+            </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#"><img src="img/icon_person.svg" width="24px"></a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Contents -->
+    <div class="detail-contents">
+        <!-- Left Content -->
+        <div class="left">
+            <div class="card">
+                <img src="img/28a917cc-f634-4f8a-b910-7b8a88e4fbc0-1702925630965-827632378.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">JEFF SATUR: SPACE SHUTTLE NO.8 ASIA TOUR</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="cprice-date">
+                    <div class="content-price">
+                      <small class="text-body-secondary"><p>Rp250.000,-</p></small>
+                    </div>
+                    <div class="content-date">
+                      <small class="text-body-secondary"><p>31-12-2023</p></small>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right Content -->
+        <div class="right">
+            <form class="row g-3">
+                <div class="form">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Venia Jani" required>
+                        <label for="floatingInput">Nama Lengkap</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingPassword" placeholder="venia@email.com" required>
+                        <label for="floatingPassword">Email</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="floatingPassword" placeholder="+62 812 345 678" required>
+                        <label for="floatingPassword">Nomor Telepon</label>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn-style dropdown-toggle mb-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Banyak Tiket
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">1</a></li>
+                          <li><a class="dropdown-item" href="#">2</a></li>
+                          <li><a class="dropdown-item" href="#">3</a></li>
+                          <li><a class="dropdown-item" href="#">4</a></li>
+                        </ul>
+                      </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Saya sudah membaca S&K yang berlaku
+                        </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="joinev">
+                    <div class="content-join">
+                        <a href="#">
+                            <button type="submit">PILIH PEMBAYARAN</button>
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <h5>EVENTUNJ</h5>
+        <p>2023</p>                
+        <p>Jakarta, 13220<br>
+            +62 21345 678</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
