@@ -90,6 +90,7 @@
 }
 
 footer {
+    width: 100%;
     background: var(--brown);
     color: #fff;
     padding: 10px;
