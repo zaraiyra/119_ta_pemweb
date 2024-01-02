@@ -1,0 +1,43 @@
+body {
+    background-color: var(--navbar) !important;
+}
+
+.detail-contents {
+    margin-top: 75px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--navbar);
+}
+
+.left {
+    width: 35%;
+}
+
+.right {
+    width: 63%;
+}
+
+.left, .right {
+    padding: 10px;
+}
+
+.formq {
+    display: flex;
+    align-content: space-between;
+}
+
+.btn-style {
+    width: 100%;
+    text-align: left;
+    border: 0.5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.joinev {
+    .content-join {
+        width: 100%;
+    }
+}
