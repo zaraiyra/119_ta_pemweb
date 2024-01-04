@@ -9,28 +9,29 @@
     <link rel="stylesheet" href="css/homepage.css">
     <link rel="stylesheet" href="css/detail.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/payment.css">
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img\logo.png" alt="EVENTUNJ" width="100px">
-            </a>
+          <a class="navbar-brand" href="#">
+            <img src="img/Logo-detail.png" alt="EVENTUNJ" width="250px">
+          </a>
         </div>
         <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><img src="img/icon_heart.svg" width="24px">
-                <span class="position-absolute translate-middle badge rounded-pill bg-danger">
-                    3
-                <span class="visually-hidden">unread messages</span>
-                </a>
-            </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#"><img src="img/icon_person.svg" width="24px"></a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><img src="img/property-1default.png" width="24px">
+              <span class="position-absolute translate-middle badge rounded-pill bg-danger">
+                3
+              <span class="visually-hidden">unread messages</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="img/property-1logged-in.png" width="24px"></a>
+          </li>
         </ul>
-    </nav>
+      </nav>
     <!-- Contents -->
     <div class="detail-contents">
         <!-- Left Content -->
@@ -90,8 +91,50 @@
                 <div class="joinev">
                     <div class="content-join">
                         <a href="#">
-                            <button type="submit">PILIH PEMBAYARAN</button>
+                            <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">PILIH PEMBAYARAN</button>
                         </a>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                <div class="row">
+                                    <div class="paymentCont">
+                                                    <div class="headingWrap">
+                                                            <h3 class="headingTop text-center">Select Your Payment Method</h3>	
+                                                            <p class="text-center">Created with bootsrap button and using radio button</p>
+                                                    </div>
+                                                    <div class="paymentWrap">
+                                                        <div class="btn-group paymentBtnGroup btn-group-justified" data-toggle="buttons">
+                                                            <label class="btn paymentMethod active">
+                                                                <div class="method visa"></div>
+                                                                <input type="radio" name="options" checked> 
+                                                            </label>
+                                                            <label class="btn paymentMethod">
+                                                                <div class="method master-card"></div>
+                                                                <input type="radio" name="options"> 
+                                                            </label>
+                                                            <label class="btn paymentMethod">
+                                                                <div class="method amex"></div>
+                                                                <input type="radio" name="options">
+                                                            </label>
+                                                            <label class="btn paymentMethod">
+                                                                <div class="method vishwa"></div>
+                                                                <input type="radio" name="options"> 
+                                                            </label>
+                                                            <label class="btn paymentMethod">
+                                                                <div class="method ez-cash"></div>
+                                                                <input type="radio" name="options"> 
+                                                            </label>
+                                                        
+                                                        </div>        
+                                                    </div>
+                                                    <div class="footerNavWrap clearfix">
+                                                        <div class="btn btn-success pull-left btn-fyi"><span class="glyphicon glyphicon-chevron-left"></span> CONTINUE SHOPPING</div>
+                                                        <div class="btn btn-success pull-right btn-fyi">CHECKOUT<span class="glyphicon glyphicon-chevron-right"></span></div>
+                                                    </div>
+                                                </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </form>
